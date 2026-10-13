@@ -15,9 +15,11 @@ There are 3 Systems Being Compared:
 **Key Findings**: LORA dramatically outperforms the full fine tuning on the small dataset, which avoids a collapse that was discovered in full SFT.
 
 **Environment & Setup Instructions**
-1) Open notebook in Google CoLab with A GPU (T4 GPU) at the runtime type.
-2) Upload the output_data.json file to the CoLab folder.
-3) Install all the dependcies that are the first two cells at the top of the notebook. Only need to run them once to keep dependencies up to date.
+1) Click on "final_implementation_zharinna.ipynb" file in repository.
+2) Click on Open in Colab" link at the top of the file to open the notebook in Google CoLab. 
+3) Change the runtime type by going to the "Runtime" tab, then go to "Change runtime type", and switch to GPU (T4 GPU).
+4) Upload the output_data.json file to the CoLab folder.
+5) Install all the dependcies that are the first two cells at the top of the notebook. Only need to run them once to keep dependencies up to date.
 
 **Run Training & Evaluation/Where to Produce the Demo**
 Run ALL of the cells directly from top to bottom. See the "Table of Contents" for better navigation of the notebook.
